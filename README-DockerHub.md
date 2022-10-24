@@ -1,6 +1,6 @@
 # Debian-based Mandrel image optimized for building Quarkus projects
 
-last updated: Thu Oct  6 16:55:19 CEST 2022  
+last updated: Mon Oct 24 19:15:44 CEST 2022  
 author: Lukasz Ochmanski (github@ochmanski.de)  
 
 ![Docker Image Version](https://img.shields.io/docker/v/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/latest?label=latest&kill_cache=1) 
