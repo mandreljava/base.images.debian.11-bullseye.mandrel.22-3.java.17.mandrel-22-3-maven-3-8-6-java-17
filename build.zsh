@@ -61,3 +61,10 @@ docker push ochmanskide/mandrel-maven:java-17
 docker push ochmanskide/mandrel-maven:java17
 docker push ochmanskide/mandrel-maven:jdk-17
 docker push ochmanskide/mandrel-maven:jdk17
+
+
+# in case this is the latest Java Candidate (current == 17)
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/graalvm-maven:latest
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/mandrel-maven:latest
+docker push ochmanskide/graalvm-maven:latest
+docker push ochmanskide/mandrel-maven:latest
