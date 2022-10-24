@@ -32,3 +32,32 @@ fi
 
 echo "docker build -t $DOCKER_HUB_HOST/$DOCKER_REPOSITORY$GROUP_ID/$ARTIFACT_ID:$IMAGE_TAG ."
 echo "docker push $DOCKER_HUB_HOST/$DOCKER_REPOSITORY$GROUP_ID/$ARTIFACT_ID:$IMAGE_TAG"
+
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:latest
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/graalvm-maven:mandrel-22-2-maven-3-8-6-java-17
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/graalvm-maven:22-2-maven-3-8-6-java-17
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/graalvm-maven:java-17
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/graalvm-maven:java17
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/graalvm-maven:jdk-17
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/graalvm-maven:jdk17
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/mandrel-maven:mandrel-22-2-maven-3-8-6-java-17
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/mandrel-maven:22-2-maven-3-8-6-java-17
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/mandrel-maven:java-17
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/mandrel-maven:java17
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/mandrel-maven:jdk-17
+docker tag ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0 ochmanskide/mandrel-maven:jdk17
+
+docker push ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0
+docker push ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:latest
+docker push ochmanskide/graalvm-maven:mandrel-22-2-maven-3-8-6-java-17
+docker push ochmanskide/graalvm-maven:22-2-maven-3-8-6-java-17
+docker push ochmanskide/graalvm-maven:java-17
+docker push ochmanskide/graalvm-maven:java17
+docker push ochmanskide/graalvm-maven:jdk-17
+docker push ochmanskide/graalvm-maven:jdk17
+docker push ochmanskide/mandrel-maven:mandrel-22-2-maven-3-8-6-java-17
+docker push ochmanskide/mandrel-maven:22-2-maven-3-8-6-java-17
+docker push ochmanskide/mandrel-maven:java-17
+docker push ochmanskide/mandrel-maven:java17
+docker push ochmanskide/mandrel-maven:jdk-17
+docker push ochmanskide/mandrel-maven:jdk17

@@ -1,118 +1,77 @@
 # Debian-based Mandrel image optimized for building Quarkus projects
 
-last updated: last updated: ###TIMESTAMP###   
+last updated: Thu Oct  6 16:55:19 CEST 2022  
 author: Lukasz Ochmanski (github@ochmanski.de)  
-  
-[![Github tag](https://badgen.net/github/tag/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17?icon=github&kill_cache=1)](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/tags/###CI_COMMIT_TAG###)  
-&nbsp;
-  
+
+![Docker Image Version](https://img.shields.io/docker/v/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/latest?label=latest&kill_cache=1) 
+[![Docker Image Size](https://badgen.net/docker/size/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/latest?icon=docker&label=image%20size)](https://hub.docker.com/ochmanskide/mandrel-maven/latest/)  
+
 **Project details:**  
 ![GitHub](https://img.shields.io/github/license/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17)
 ![java17](https://img.shields.io/badge/Java-17-brightgreen) 
-![Maven](https://img.shields.io/badge/Maven-3.8.6-brightgreen) 
+![maven](https://img.shields.io/badge/Maven-3.8.6-brightgreen) 
 ![graalvm](https://img.shields.io/badge/GraalVM-22.2.0-brightgreen) 
 ![mandrel](https://img.shields.io/badge/Mandrel-22.2.0-brightgreen) 
 ![distribution](https://img.shields.io/badge/Distribution-Debian-brightgreen) 
 ![arch](https://img.shields.io/badge/Arch-amd64-brightgreen)  
 &nbsp;  
-  
-&nbsp;
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [1. How to clone:](#1-how-to-clone)
-- [2. GitHub repository URL](#2-github-repository-url)
-- [3. How to build locally:](#3-how-to-build-locally)
-- [4. DockerHub page:](#4-dockerhub-page)
-- [5. Image coordinates:](#5-image-coordinates)
-- [6. Available Docker images and tags:](#6-available-docker-images-and-tags)
-- [7. What's in this image?](#7-whats-in-this-image)
-- [8. FROM image:](#8-from-image)
-- [9. Docker Hub page:](#9-docker-hub-page)
-- [10. Excerpt from official Mandrel documentation](#10-excerpt-from-official-mandrel-documentation)
-- [11. Docker image details:](#11-docker-image-details)
-- [12. Usage](#12-usage)
-  - [12.1. Run Quarkus with Maven](#121-run-quarkus-with-Maven)
-- [13. License](#13-license)
-- [14. Acknowledgments](#14-acknowledgments)
-- [15. Frequently Asked Questions (FAQ)](#15-frequently-asked-questions-faq)
-  - [15.1. Is this project OpenSource?](#151-is-this-project-opensource)
-  - [15.2. How can I contact the maintainer?](#152-how-can-i-contact-the-maintainer)
-  - [15.2. Is this image compatible with AWS CodeBuild pipeline?](#152-is-this-image-compatible-with-aws-codebuild-pipeline)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-  
-&nbsp;
 
 ## About
+Opinionated docker image based on the [Debian](https://www.debian.org/) docker image [`debian:stable-slim`](https://hub.docker.com/_/debian?tab=tags&name=stable-slim) to
+build native Linux binaries from Java [Maven](http://maven.apache.org/) projects using [GraalVM](https://www.graalvm.org/) [native-image](https://www.graalvm.org/reference-manual/native-image/) feature.  
+  
 Mandrel focuses on GraalVM's native-image component in order to provide an easy way for Quarkus users to generate native images for their applications.  
 Developers using Quarkus should be able to go all the way from Java source code to lean, native, platform-dependent applications running on Linux.  
 This capability is vital for deploying to containers in a cloud-native application development model. 
 
-## Before you start
 
-### Gradle configuration
+&nbsp;
+&nbsp;
 
-Before you start it is assumed that you installed SDKMAN, Java and Gradle.
+
+## 1. Getting started
+### 1.1. Pull Docker image:
 ```bash
-sdk install java 17.0.2-open
-sdk install gradle 7.5
+docker pull ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
 ```
-&nbsp;
-&nbsp;
 
-## 1. How to clone:
+### 1.2. Run sample project
+#### 1.2.1. run Docker Container:
 ```bash
-git clone git@github.com:ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17.git \
-~/Workspace/ochmanskide/base/images/debian/11-bullseye/mandrel/22-2/java/17/mandrel-22-2-maven-3-8-6-java-17
+docker run -it --entrypoint /bin/bash ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
 ```
-&nbsp;
-
-## 2. GitHub repository URL
-https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
-&nbsp;
-
-&nbsp;
-## 3. How to build locally:
+#### 1.2.2. clone the project:
 ```bash
-export DOCKER_HUB_HOST=$USER
-cd ~/Workspace/ochmanskide/base/images/debian/11-bullseye/mandrel/22-2/java/17/mandrel-22-2-maven-3-8-6-java-17
-gradle docker
+git clone https://github.com/ochmanskide/quarkus.code-with-quarkus.git /home/quarkus/code-with-quarkus
 ```
-to push:
+#### 1.2.3. change directory:
 ```bash
-gradle dockerPush
+cd /home/quarkus/code-with-quarkus
 ```
-to see all tasks:
+#### 1.2.4. build native image:
 ```bash
-gradle tasks
+mvn package -Dquarkus.package.type=native
 ```
-More about Gradle Docker Plugin: https://github.com/palantir/gradle-docker  
-&nbsp;
+#### 1.2.5. when the build completes, you may run the binary, which is located somewhere in /build/libs/ directory.
+```bash
+/home/quarkus/code-with-quarkus/build/libs/code-with-quarkus-1.0.0-SNAPSHOT-runner
+```
 
-&nbsp;
-
-## 4. DockerHub page:
-https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
-&nbsp;
-
-&nbsp;
-
-## 5. Image coordinates:
+## 2. How to pull image:
 ```  
-docker pull ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.10
+docker pull ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:latest
 ```
 
-## 6. Available Docker images and tags:
+## 3. Latest Tags:
 ```
-REPOSITORY                                                                                        TAG                    SIZE
-ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17   ###CI_COMMIT_TAG###                  933.52MB
-ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17   latest                 933.52MB
-debian                                                                                            stable-20220711-slim   80.4MB
+REPOSITORY                                                                                        TAG                               IMAGE ID       SIZE
+ochmanskide/graalvm-maven                                                                          mandrel-22-2-maven-3-8-6-java-17   899856155ff9   933.52MB
+ochmanskide/mandrel-maven                                                                          mandrel-22-2-maven-3-8-6-java-17   899856155ff9   933.52MB
+ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17   1.0.0                             899856155ff9   933.52MB
+ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17   latest                            899856155ff9   933.52MB
 ```
 
-## 7. What's in this image?
+## 4. What's in this image?
 ```
 ### Mandrel Image
 ### Debian Slim
@@ -121,27 +80,50 @@ debian                                                                          
 ### base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
 ### ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
 
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   00-slim            80MB   (80MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   01-clean           80MB   (0MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   02-graalvm         465MB  (385MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   03-maven          594MB  (129MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   04-aws-cli         753MB  (159MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   05-docker-cli      805MB  (52MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   06-dockerd         870MB  (65MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   07-containerd      904MB  (34MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   08-build-essential
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   09-libz-dev
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   10-zlib1g-dev      1.11GB (196MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   11-git             1.18GB (70MB)
+debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   00-slim            80MB   (80MB)
+debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   01-clean           80MB   (0MB)
+debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   02-graalvm         465MB  (385MB)
+debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   03-maven           594MB  (129MB)
+debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   04-aws-cli         753MB  (159MB)
+debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   05-docker-cli      805MB  (52MB)
+debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   06-dockerd         870MB  (65MB)
+debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   07-containerd      904MB  (34MB)
+debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   08-build-essential
+debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   09-libz-dev
+debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   10-zlib1g-dev      1.17GB (196MB)
+debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   17-git             1.18GB (70MB)
 ```
 
-## 8. FROM image:
+## 5. From image:
 https://hub.docker.com/_/debian
 
 ```  
-FROM debian:stable-20220711-slim
+FROM debian:stable-20220717-slim
+```
+&nbsp;
+## 6. How to clone source code:
+```bash
+git clone https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17.git ~/Workspace/ochmanskide/base/images/debian/11-bullseye/mandrel/22-2/java/17/mandrel-22-2-maven-3-8-6-java-17
 ```
 
+&nbsp;
+## 7. Source code page:
+https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
+&nbsp;
+
+&nbsp;
+
+## 8. How to build image from source:
+More details available directly in the [Section 3. How to build locally](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17#3-how-to-build-locally) of [README.md](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17) file.  
+  
+Excerpt:  
+```bash
+export DOCKER_HUB_HOST=$USER
+cd ~/Workspace/ochmanskide/base/images/debian/11-bullseye/mandrel/22-2/java/17/mandrel-22-2-maven-3-8-6-java-17
+gradle docker
+```
+
+&nbsp;
 ## 9. Docker Hub page:
 https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
 &nbsp;
@@ -160,7 +142,7 @@ They support the same native image capability as GraalVM with no significant cha
 They do not include support for Polyglot programming via the Truffle interpreter and compiler framework.  
 In consequence, it is not possible to extend Mandrel by downloading languages from the Truffle language catalogue.  
 
-Mandrel is also built slightly differently to GraalVM, using the standard OpenJDK project release of jdk11u.  
+Mandrel is also built slightly differently to GraalVM, using the standard OpenJDK project release of jdk17u.  
 This means it does not profit from a few small enhancements that Oracle have added to the version of OpenJDK used to build their own GraalVM downloads.  
 Most of these enhancements are to the JVMCI module that allows the Graal compiler to be run inside OpenJDK.  
 The others are small cosmetic changes to behaviour.  
@@ -189,7 +171,7 @@ On Ubuntu-like systems with:
 apt install g++ zlib1g-dev libfreetype6-dev
 ```
 
-## 11. Docker image details:
+## 17. image details:
 ```bash
 $ docker run -it --entrypoint /bin/bash ochmanskide/mandrel-maven:latest
 
@@ -305,11 +287,11 @@ View license information for the software contained in this image.
   
 As with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).  
   
-Some additional license information which was able to be auto-detected might be found in the repo-info repository's Maven/ directory.  
+Some additional license information which was able to be auto-detected might be found in the repo-info repository's .m2/ directory.  
   
 As for any pre-built image usage, it is the image user's responsibility to ensure that any use of this image complies with any relevant licenses for all software contained within.  
   
-https://hub.docker.com/_/Maven  
+https://hub.docker.com/_/maven  
 
 ## 14. Acknowledgments
 https://github.com/vegardit/docker-graalvm-maven  

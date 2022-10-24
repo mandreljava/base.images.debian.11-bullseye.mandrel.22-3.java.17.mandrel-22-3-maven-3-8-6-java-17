@@ -107,8 +107,8 @@ docker pull ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mand
 ## 6. Available Docker images and tags:
 ```
 REPOSITORY                                                                                        TAG                    SIZE
-ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17   1.0.0                  1.18GB
-ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17   latest                 1.18GB
+ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17   1.0.0                  933.52MB
+ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17   latest                 933.52MB
 debian                                                                                            stable-20220711-slim   80.4MB
 ```
 
