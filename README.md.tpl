@@ -101,14 +101,14 @@ https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bulls
 
 ## 5. Image coordinates:
 ```  
-docker pull ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.10
+docker pull ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:###CI_COMMIT_TAG###
 ```
 
 ## 6. Available Docker images and tags:
 ```
 REPOSITORY                                                                                        TAG                    SIZE
-ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17   ###CI_COMMIT_TAG###                  933.52MB
-ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17   latest                 933.52MB
+ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17  ###CI_COMMIT_TAG###                  933.52MB
+ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17  latest                 933.52MB
 debian                                                                                            stable-20220711-slim   80.4MB
 ```
 
@@ -124,7 +124,7 @@ debian                                                                          
 debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   00-slim            80MB   (80MB)
 debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   01-clean           80MB   (0MB)
 debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   02-graalvm         465MB  (385MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   03-maven          594MB  (129MB)
+debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   03-maven           594MB  (129MB)
 debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   04-aws-cli         753MB  (159MB)
 debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   05-docker-cli      805MB  (52MB)
 debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   06-dockerd         870MB  (65MB)
@@ -160,7 +160,7 @@ They support the same native image capability as GraalVM with no significant cha
 They do not include support for Polyglot programming via the Truffle interpreter and compiler framework.  
 In consequence, it is not possible to extend Mandrel by downloading languages from the Truffle language catalogue.  
 
-Mandrel is also built slightly differently to GraalVM, using the standard OpenJDK project release of jdk11u.  
+Mandrel is also built slightly differently to GraalVM, using the standard OpenJDK project release of jdk17u.  
 This means it does not profit from a few small enhancements that Oracle have added to the version of OpenJDK used to build their own GraalVM downloads.  
 Most of these enhancements are to the JVMCI module that allows the Graal compiler to be run inside OpenJDK.  
 The others are small cosmetic changes to behaviour.  

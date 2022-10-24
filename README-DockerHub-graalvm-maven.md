@@ -56,15 +56,15 @@ Table 2.1. Supported tags and respective Dockerfile links
 ### 2.2. Docker Repository Details
 | REPOSITORY   |      TAG      |  IMAGE ID | SIZE |
 |:----------|:-------------|:------|:------|
-|ochmanskide/graalvm-maven|mandrel-22-2-maven-3-8-6-java-17| 00456ebbedab |1.06GB|
-|ochmanskide/graalvm-maven|22-2-maven-3-8-6-java-17| 00456ebbedab |1.06GB|
-|ochmanskide/graalvm-maven|java-17| 00456ebbedab |1.06GB|
-|ochmanskide/graalvm-maven|java17| 00456ebbedab |1.06GB|
-|ochmanskide/graalvm-maven|jdk-17| 00456ebbedab |1.06GB|
-|ochmanskide/graalvm-maven|jdk17| 00456ebbedab |1.06GB|
-|ochmanskide/graalvm-maven|latest| 00456ebbedab |1.06GB|
-|[`ochmanskide/...11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17`](https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17)|1.0.0| 00456ebbedab |1.06GB|
-|[`ochmanskide/...11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17`](https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17)|latest| 00456ebbedab |1.06GB|
+|ochmanskide/graalvm-maven|mandrel-22-2-maven-3-8-6-java-17| 899856155ff9 |933.52MB|
+|ochmanskide/graalvm-maven|22-2-maven-3-8-6-java-17| 899856155ff9 |933.52MB|
+|ochmanskide/graalvm-maven|java-17| 899856155ff9 |933.52MB|
+|ochmanskide/graalvm-maven|java17| 899856155ff9 |933.52MB|
+|ochmanskide/graalvm-maven|jdk-17| 899856155ff9 |933.52MB|
+|ochmanskide/graalvm-maven|jdk17| 899856155ff9 |933.52MB|
+|ochmanskide/graalvm-maven|latest| 899856155ff9 |933.52MB|
+|[`ochmanskide/...11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17`](https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17)|1.0.0| 899856155ff9 |933.52MB|
+|[`ochmanskide/...11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17`](https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17)|latest| 899856155ff9 |933.52MB|
   
 Table 2.2.  Docker Repository Details
   
@@ -166,8 +166,11 @@ gradle docker
 ```
 
 &nbsp;
-## 9. Docker Hub page:
-https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
+## 9. Docker Hub pages:
+* https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17  
+* https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.11.mandrel-22-2-maven-3-8-6-java-11  
+* https://hub.docker.com/repository/docker/ochmanskide/mandrel-maven  
+* https://hub.docker.com/repository/docker/ochmanskide/graalvm-maven  
 &nbsp;
 
 &nbsp;
