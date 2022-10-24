@@ -57,12 +57,12 @@ mvn package -Dquarkus.package.type=native
 /home/quarkus/code-with-quarkus/build/libs/code-with-quarkus-1.0.0-SNAPSHOT-runner
 ```
 
-## 2. How to pull image:
+## 2. How to pull image?
 ```  
 docker pull ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:latest
 ```
 
-## 3. Latest Tags:
+## 3. Latest Tags
 ```
 REPOSITORY                                                                                         TAG                               IMAGE ID       SIZE
 ochmanskide/graalvm-maven                                                                          mandrel-22-2-maven-3-8-6-java-17  899856155ff9   933.52MB
@@ -101,19 +101,20 @@ https://hub.docker.com/_/debian
 FROM debian:stable-20220717-slim
 ```
 &nbsp;
-## 6. How to clone source code:
+## 6. How to clone source code?
 ```bash
 git clone https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17.git ~/Workspace/ochmanskide/base/images/debian/11-bullseye/mandrel/22-2/java/17/mandrel-22-2-maven-3-8-6-java-17
 ```
 
 &nbsp;
-## 7. Source code page:
-https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
+## 7. Source code pages
+* https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.11.mandrel-22-2-maven-3-8-6-java-11
+* https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
 &nbsp;
 
 &nbsp;
 
-## 8. How to build image from source:
+## 8. How to build image from source?
 More details available directly in the [Section 3. How to build locally](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17#3-how-to-build-locally) of [README.md](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17) file.  
   
 Excerpt:  
@@ -124,7 +125,7 @@ gradle docker
 ```
 
 &nbsp;
-## 9. Docker Hub pages:
+## 9. Docker Hub pages
 * https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17  
 * https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.11.mandrel-22-2-maven-3-8-6-java-11  
 * https://hub.docker.com/repository/docker/ochmanskide/mandrel-maven  
