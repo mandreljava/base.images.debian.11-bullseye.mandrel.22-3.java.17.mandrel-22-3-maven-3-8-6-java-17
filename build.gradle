@@ -27,3 +27,21 @@ tag {
     // Now you can specify the message via the environment variable tagMessage
     message fromEnvironmentVariable('tagMessage')
 }
+
+task rootProjectGroupRaw {
+    doLast {
+        println(rootProject.group)
+    }
+}
+
+task rootProjectNameRaw {
+    doLast {
+        println(rootProject.name)
+    }
+}
+
+task rootProjectVersionRaw {
+    doLast {
+        println(rootProject.version)
+    }
+}

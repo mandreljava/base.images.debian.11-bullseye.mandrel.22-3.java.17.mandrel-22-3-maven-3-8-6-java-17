@@ -90,18 +90,18 @@ etc.
 ### base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
 ### ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
 
-debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   00-slim            80MB   (80MB)
-debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   01-clean           80MB   (0MB)
-debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   02-graalvm         465MB  (385MB)
-debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   03-maven           594MB  (129MB)
-debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   04-aws-cli         753MB  (159MB)
-debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   05-docker-cli      805MB  (52MB)
-debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   06-dockerd         870MB  (65MB)
-debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   07-containerd      904MB  (34MB)
-debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   08-build-essential
-debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   09-libz-dev
-debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   10-zlib1g-dev      1.17GB (196MB)
-debian-11-bullseye/mandrel-22-1-maven-3-8-6-java-17   17-git             1.18GB (70MB)
+debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   00-slim            80MB   (80MB)
+debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   01-clean           80MB   (0MB)
+debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   02-graalvm         465MB  (385MB)
+debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   03-maven           594MB  (129MB)
+debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   04-aws-cli         753MB  (159MB)
+debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   05-docker-cli      805MB  (52MB)
+debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   06-dockerd         870MB  (65MB)
+debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   07-containerd      904MB  (34MB)
+debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   08-build-essential
+debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   09-libz-dev
+debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   10-zlib1g-dev      1.17GB (196MB)
+debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   17-git             1.18GB (70MB)
 ```
 
 ## 3. Why Debian?
