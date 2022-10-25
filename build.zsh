@@ -2,7 +2,7 @@
 
 # This is a backup solution for people that don't know how to use Gradle.
 # This script should be used only in last resort or for testing purposes
-# bacause it does exactly the same job as `maven docker` command, just worse...
+# because it does exactly the same job as `maven docker` command, just worse...
 # please install SDKMAN, Java, and Gradle
 # your life will be easier
 # thank you
