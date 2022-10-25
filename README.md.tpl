@@ -56,7 +56,7 @@ This capability is vital for deploying to containers in a cloud-native applicati
 
 Before you start it is assumed that you installed SDKMAN, Java and Gradle.
 ```bash
-sdk install java 17.0.2-open
+sdk install java 17.0.4.1-tem
 sdk install gradle 7.5
 ```
 &nbsp;
