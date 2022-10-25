@@ -29,7 +29,7 @@ author: Lukasz Ochmanski (github@ochmanski.de)
 - [6. Available Docker images and tags:](#6-available-docker-images-and-tags)
 - [7. What's in this image?](#7-whats-in-this-image)
 - [8. FROM image:](#8-from-image)
-- [9. Docker Hub page:](#9-docker-hub-page)
+- [9. Docker Hub page](#9-docker-hub-page)
 - [10. Excerpt from official Mandrel documentation](#10-excerpt-from-official-mandrel-documentation)
 - [11. Docker image details:](#11-docker-image-details)
 - [12. Usage](#12-usage)
@@ -142,7 +142,7 @@ https://hub.docker.com/_/debian
 FROM debian:stable-20220711-slim
 ```
 
-## 9. Docker Hub page:
+## 9. Docker Hub page
 https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
 &nbsp;
 
