@@ -58,7 +58,7 @@ Table 1.1. Supported tags and respective Dockerfile links
   
   &nbsp;  
   &nbsp;  
-### 2.2. Docker Repository naming conventions
+### 1.2. Docker Repository naming conventions
 | REPOSITORY                                                                                                                                                                                                                      | TAG                              | IMAGE ID     | SIZE     |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------|:-------------|:---------|
 | ochmanskide/mandrel-maven                                                                                                                                                                                                       | mandrel-22-2-maven-3-8-6-java-17 | 899856155ff9 | 933.52MB |
@@ -71,7 +71,7 @@ Table 1.1. Supported tags and respective Dockerfile links
 | [`ochmanskide/...11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17`](https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17) | 1.0.0                            | 899856155ff9 | 933.52MB |
 | [`ochmanskide/...11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17`](https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17) | latest                           | 899856155ff9 | 933.52MB |
   
-Table 2.2.  Docker Repository naming conventions
+Table 1.2. Docker Repository naming conventions
   
   &nbsp;  
   &nbsp;  
