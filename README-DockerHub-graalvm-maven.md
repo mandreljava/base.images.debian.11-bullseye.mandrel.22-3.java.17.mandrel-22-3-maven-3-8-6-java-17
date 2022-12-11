@@ -30,15 +30,19 @@ This capability is vital for deploying to containers in a cloud-native applicati
 
 
 ## 1. Supported tags and respective `Dockerfile` links
-As always, it is recommended to use a specific fixed version of the software, for example use a tag `1.0.6` instead of `latest`.  
+As always, it is recommended to use a specific, fixed version of the software, for example use a tag `1.0.6` instead of `latest`.  
 Semantic versioning tags are immutable and they provide reproducible builds.  
-Please do not use floating tags in production. They are only for development purposes.  
-Each floating tag in this docker registry (docker tag) corresponds to the semantic versioning tag in another docker registry. Simply look up the digest of the tag and compare them.  
+Tags such as `latest` or `jdk17` are merely aliases pointing to some fully qualified identifier.  
+Fully qualified image identifiers guarantee reliable builds. These images **do not change**.  
+Please do not use floating tags in production. They are only for convenience and development purposes.  
+Each floating docker tag in this docker registry corresponds to the fixed tag in its own, more specific, docker registry.  
+Simply look up the digest of the image and find it in another repo.  
 This means that some images are duplicated across different docker registries. This is intended.  
-Since fixed versions are present only in one of these registries, there is no question which image to use.  
+Since a fixed version is present only in one of these registries, it should be easy to find the full path.  
 Always search for the most specific, therefore the longest path, with the specific semantic versioning tag.  
 It is discouraged to use floating tags, but I provided them for an easy and quick start.  
-Once you get familiar with the image, you may replace the path with the full path and the fixed tag, at any moment.  
+Once you get familiar with the image, you may replace the path with the fully qualified path and the fixed tag.  
+Fully qualified image path is guaranteed to point to this unique digest. It will not change. You may safely use them future. They will not change.    
   
 ### 1.1. Dockerfile source
 The following table contains links to the Dockerfile in git repository, from which the Docker image was built. Feel free to look at source by clicking the link below.  
