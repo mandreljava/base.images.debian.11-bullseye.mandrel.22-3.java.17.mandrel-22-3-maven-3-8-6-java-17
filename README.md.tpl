@@ -269,10 +269,16 @@ java -version && echo
 mvn -version && echo
 docker --version && echo
 aws --version && echo
-alias la='ls -la' && echo
-la /usr/local/bin/containerd && echo
+
+# manually start Docker daemon (which is also a default entrypoint)
 /usr/local/bin/dockerd-entrypoint.sh 2> /dev/null && echo
+
+# optional - authenticate to AWS Elastic Container Registry
+# (if you had installed AWS CLI tool, from the script that I provided)
+# more details available in FAQ Section 15.3.
 /home/aws/ecr/login.sh && echo
+
+# verify that Docker was connected, and list all images
 docker images && echo
 ```
 
@@ -330,7 +336,7 @@ If you have questions about licensing, feel free to email me.
 if you have questions, feel free to send me an email: github@ochmanski.de  
 I will be happy to help you.
 
-### 15.2. Is this image compatible with AWS CodeBuild pipeline?
+### 15.3. Is this image compatible with AWS CodeBuild pipeline?
 - yes, you could use it in the AWS environment, but you just need to install AWS-CLI.  
 I already prepared a shell script `./scripts/install/05-install-aws-cli.sh` and `10-import-rds-certificates.sh`.  
 Simply run it and you should be able to authenticate with all AWS resources.  
