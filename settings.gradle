@@ -10,4 +10,4 @@ pluginManagement {
 plugins {
     id "io.alcide.gradle-semantic-build-versioning" version "4.2.2"
 }
-rootProject.name = 'mandrel-22-2-maven-3-8-6-java-17'
+rootProject.name = 'mandrel-22-3-maven-3-8-6-java-17'
