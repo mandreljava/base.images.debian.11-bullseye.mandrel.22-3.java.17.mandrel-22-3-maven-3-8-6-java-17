@@ -1,13 +1,13 @@
 # Debian-based Mandrel image optimized for building Quarkus projects
 
-last updated: Mon, Jun 12, 2023  7:14:59 AM
+last updated: Mon, Jun 12, 2023  8:54:32 AM
 author: Lukasz Ochmanski (github@ochmanski.de)  
   
-[![Github tag](https://badgen.net/github/tag/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17?icon=github&kill_cache=1)](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/tags/1.0.1)  
+[![Github tag](https://badgen.net/github/tag/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17?icon=github&kill_cache=1)](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17/tags/0.0.2)  
 &nbsp;
   
 **Project details:**  
-![GitHub](https://img.shields.io/github/license/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17)
+![GitHub](https://img.shields.io/github/license/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17)
 ![java17](https://img.shields.io/badge/Java-17-brightgreen) 
 ![Maven](https://img.shields.io/badge/Maven-3.8.6-brightgreen) 
 ![graalvm](https://img.shields.io/badge/GraalVM-22.2.0-brightgreen) 
@@ -64,20 +64,20 @@ sdk install gradle 7.5
 
 ## 1. How to clone:
 ```bash
-git clone git@github.com:ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17.git \
-~/Workspace/ochmanskide/base/images/debian/11-bullseye/mandrel/22-2/java/17/mandrel-22-2-maven-3-8-6-java-17
+git clone git@github.com:ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17.git \
+~/Workspace/ochmanskide/base/images/debian/11-bullseye/mandrel/22-3/java/17/mandrel-22-3-maven-3-8-6-java-17
 ```
 &nbsp;
 
 ## 2. GitHub repository URL
-https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
+https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17
 &nbsp;
 
 &nbsp;
 ## 3. How to build locally:
 ```bash
 export DOCKER_HUB_HOST=$USER
-cd ~/Workspace/ochmanskide/base/images/debian/11-bullseye/mandrel/22-2/java/17/mandrel-22-2-maven-3-8-6-java-17
+cd ~/Workspace/ochmanskide/base/images/debian/11-bullseye/mandrel/22-3/java/17/mandrel-22-3-maven-3-8-6-java-17
 gradle docker
 ```
 to push:
@@ -94,21 +94,21 @@ More about Gradle Docker Plugin: https://github.com/palantir/gradle-docker
 &nbsp;
 
 ## 4. DockerHub page:
-https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
+https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17
 &nbsp;
 
 &nbsp;
 
 ## 5. Image coordinates:
 ```  
-docker pull ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.1
+docker pull ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17:0.0.2
 ```
 
 ## 6. Available Docker images and tags:
 ```
 REPOSITORY                                                                                        TAG                    SIZE
-ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17  1.0.1                  933.52MB
-ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17  latest                 933.52MB
+ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17  0.0.2                  933.52MB
+ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17  latest                 933.52MB
 debian                                                                                            stable-20220711-slim   80.4MB
 ```
 
@@ -117,22 +117,22 @@ debian                                                                          
 ### Mandrel Image
 ### Debian Slim
 ### Debian based Mandrel Official Image
-### base/images/debian/debian-11-bullseye/mandrel/22-2/java-17/mandrel-22-2-maven-3-8-6-java-17
-### base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
-### ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
+### base/images/debian/debian-11-bullseye/mandrel/22-3/java-17/mandrel-22-3-maven-3-8-6-java-17
+### base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17
+### ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17
 
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   00-slim            80MB   (80MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   01-clean           80MB   (0MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   02-graalvm         465MB  (385MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   03-maven           594MB  (129MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   04-aws-cli         753MB  (159MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   05-docker-cli      805MB  (52MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   06-dockerd         870MB  (65MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   07-containerd      904MB  (34MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   08-build-essential
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   09-libz-dev
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   10-zlib1g-dev      1.11GB (196MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   11-git             1.18GB (70MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   00-slim            80MB   (80MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   01-clean           80MB   (0MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   02-graalvm         465MB  (385MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   03-maven           594MB  (129MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   04-aws-cli         753MB  (159MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   05-docker-cli      805MB  (52MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   06-dockerd         870MB  (65MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   07-containerd      904MB  (34MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   08-build-essential
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   09-libz-dev
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   10-zlib1g-dev      1.11GB (196MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   11-git             1.18GB (70MB)
 ```
 
 ## 8. FROM image:
@@ -143,7 +143,7 @@ FROM debian:stable-20220711-slim
 ```
 
 ## 9. Docker Hub page
-https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
+https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17
 &nbsp;
 
 &nbsp;
@@ -218,7 +218,7 @@ GRAALVM_HOME=/opt/graalvm
 HOSTNAME=b1b4ae122f74
 JAVA_HOME=/opt/graalvm
 PWD=/home/maven
-IMAGE_SOURCE=https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
+IMAGE_SOURCE=https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17
 MAVEN_VERSION=3.8.6
 HOME=/root
 M2_HOME=/opt/maven
@@ -284,7 +284,7 @@ docker images && echo
 
 ### 12.1. Run Quarkus with Maven
 ```bash
-docker run -it --entrypoint /bin/bash ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
+docker run -it --entrypoint /bin/bash ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17
 git clone https://github.com/ochmanskide/quarkus.code-with-quarkus.git /home/quarkus/code-with-quarkus
 cd /home/quarkus/code-with-quarkus/
 mvn package -Pnative
