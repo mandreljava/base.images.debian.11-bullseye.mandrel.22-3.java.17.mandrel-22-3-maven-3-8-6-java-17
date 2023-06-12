@@ -1,9 +1,9 @@
 # Debian-based Mandrel image optimized for building Quarkus projects
 
-last updated: Sun Dec 11 10:45:12 CET 2022   
+last updated: Mon, Jun 12, 2023  7:14:59 AM
 author: Lukasz Ochmanski (github@ochmanski.de)  
   
-[![Github tag](https://badgen.net/github/tag/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17?icon=github&kill_cache=1)](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/tags/1.0.0)  
+[![Github tag](https://badgen.net/github/tag/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17?icon=github&kill_cache=1)](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/tags/1.0.1)  
 &nbsp;
   
 **Project details:**  
@@ -27,7 +27,7 @@ author: Lukasz Ochmanski (github@ochmanski.de)
 - [4. DockerHub page:](#4-dockerhub-page)
 - [5. Image coordinates:](#5-image-coordinates)
 - [6. Available Docker images and tags:](#6-available-docker-images-and-tags)
-- [7. What's in this image](#7-whats-in-this-image)
+- [7. What's in this image?](#7-whats-in-this-image)
 - [8. FROM image:](#8-from-image)
 - [9. Docker Hub page](#9-docker-hub-page)
 - [10. Excerpt from official Mandrel documentation](#10-excerpt-from-official-mandrel-documentation)
@@ -101,13 +101,13 @@ https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bulls
 
 ## 5. Image coordinates:
 ```  
-docker pull ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.0
+docker pull ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17:1.0.1
 ```
 
 ## 6. Available Docker images and tags:
 ```
 REPOSITORY                                                                                        TAG                    SIZE
-ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17  1.0.0                  933.52MB
+ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17  1.0.1                  933.52MB
 ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17  latest                 933.52MB
 debian                                                                                            stable-20220711-slim   80.4MB
 ```
