@@ -2,14 +2,14 @@
 
 # This is a backup solution for people that don't know how to use Gradle.
 # This script should be used only in last resort or for testing purposes
-# because it does exactly the same job as `maven docker` command, just worse...
+# because it does exactly the same job as `gradle docker` command, just worse...
 # please install SDKMAN, Java, and Gradle
 # your life will be easier
 # thank you
 
 #docker login
 cd $GITHUB/base/images/debian/11-bullseye/mandrel/22-3/java/17/mandrel-22-3-maven-3-8-6-java-17 || exit
-DOCKER_HUB_HOST=ochmanskide
+DOCKER_HUB_HOST=mandreljava
 GROUP_ID=$(gradle rootProjectGroupRaw -q)
 ARTIFACT_ID=$(gradle rootProjectNameRaw -q)
 IMAGE_TAG=$(gradle rootProjectVersionRaw -q)

@@ -2,8 +2,8 @@
 FROM debian:stable-20220711-slim as stage1
 
 ARG DOCKER_HUB_URL=https://hub.docker.com/repository/docker/
-ARG DOCKER_HUB_HOST=ochmanskide
-ARG IMAGE_SOURCE="https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17"
+ARG DOCKER_HUB_HOST=mandreljava
+ARG IMAGE_SOURCE="https://github.com/mandreljava/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17"
 ARG JAVA_VERSION="17.0.4"
 ARG JAVA_HOME="/opt/graalvm"
 ARG GRAALVM_HOME="/opt/graalvm"
@@ -49,8 +49,8 @@ RUN rm -f /home/maven/xx*
 FROM debian:stable-20220711-slim
 
 ARG DOCKER_HUB_URL=https://hub.docker.com/repository/docker/
-ARG DOCKER_HUB_HOST=ochmanskide
-ARG IMAGE_SOURCE="https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17"
+ARG DOCKER_HUB_HOST=mandreljava
+ARG IMAGE_SOURCE="https://github.com/mandreljava/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17"
 ARG JAVA_VERSION="17.0.4"
 ARG JAVA_HOME="/opt/graalvm"
 ARG GRAALVM_HOME="/opt/graalvm"
