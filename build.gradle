@@ -6,7 +6,7 @@ plugins {
 group 'base.images.debian.11-bullseye.mandrel.22-3.java.17'
 
 docker {
-    def host = mandreljava
+    def host = 'mandreljava'
     def destination = version.endsWith('SNAPSHOT') ? 'snapshots/' : ''
     def coordinates = "${host}/${destination}${project.group}.${project.name}"
     name "${coordinates}:${project.version}"
