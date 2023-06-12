@@ -3,15 +3,15 @@
 last updated: Sun Dec 11 10:45:12 CET 2022  
 author: Lukasz Ochmanski (github@ochmanski.de)  
 
-![Docker Image Version](https://img.shields.io/docker/v/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/latest?label=latest&kill_cache=1) 
-[![Docker Image Size](https://badgen.net/docker/size/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/latest?icon=docker&label=image%20size)](https://hub.docker.com/ochmanskide/graalvm-maven/latest/)  
+![Docker Image Version](https://img.shields.io/docker/v/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17/latest?label=latest&kill_cache=1) 
+[![Docker Image Size](https://badgen.net/docker/size/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17/latest?icon=docker&label=image%20size)](https://hub.docker.com/ochmanskide/graalvm-maven/latest/)  
 
 **Project details:**  
-![GitHub](https://img.shields.io/github/license/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17)
+![GitHub](https://img.shields.io/github/license/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17)
 ![java17](https://img.shields.io/badge/Java-17-brightgreen) 
 ![maven](https://img.shields.io/badge/Maven-3.8.6-brightgreen) 
-![graalvm](https://img.shields.io/badge/GraalVM-22.2.0-brightgreen) 
-![mandrel](https://img.shields.io/badge/Mandrel-22.2.0-brightgreen) 
+![graalvm](https://img.shields.io/badge/GraalVM-22.3.0-brightgreen) 
+![mandrel](https://img.shields.io/badge/Mandrel-22.3.0-brightgreen) 
 ![distribution](https://img.shields.io/badge/Distribution-Debian-brightgreen) 
 ![arch](https://img.shields.io/badge/Arch-amd64-brightgreen)  
 &nbsp;  
@@ -51,8 +51,8 @@ For the convenience of users I provided 6 floating tags for Java 11 and 7 floati
 
 | Java | GraalVM | Maven | Dockerfile                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |------|:-------:|------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 17   |  22.2   | 3.8.6 | [`mandrel-22-2-maven-3-8-6-java-17`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/blob/main/Dockerfile), [`22-2-maven-3-8-6-java-17`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/blob/main/Dockerfile), [`java-17`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/blob/main/Dockerfile), [`java17`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/blob/main/Dockerfile), [`jdk-17`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/blob/main/Dockerfile), [`jdk17`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/blob/main/Dockerfile), [`latest`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17/blob/main/Dockerfile) |
-| 11   |  22.2   | 3.8.6 | [`mandrel-22-2-maven-3-8-6-java-11`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.11.mandrel-22-2-maven-3-8-6-java-11/blob/main/Dockerfile), [`22-2-maven-3-8-6-java-11`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.11.mandrel-22-2-maven-3-8-6-java-11/blob/main/Dockerfile), [`java-11`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.11.mandrel-22-2-maven-3-8-6-java-11/blob/main/Dockerfile), [`java11`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.11.mandrel-22-2-maven-3-8-6-java-11/blob/main/Dockerfile), [`jdk-11`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.11.mandrel-22-2-maven-3-8-6-java-11/blob/main/Dockerfile), [`jdk11`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.11.mandrel-22-2-maven-3-8-6-java-11/blob/main/Dockerfile)                                                                                                                                                       |
+| 17   |  22.3   | 3.8.6 | [`mandrel-22-3-maven-3-8-6-java-17`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17/blob/main/Dockerfile), [`22-3-maven-3-8-6-java-17`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17/blob/main/Dockerfile), [`java-17`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17/blob/main/Dockerfile), [`java17`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17/blob/main/Dockerfile), [`jdk-17`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17/blob/main/Dockerfile), [`jdk17`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17/blob/main/Dockerfile), [`latest`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17/blob/main/Dockerfile) |
+| 11   |  22.3   | 3.8.6 | [`mandrel-22-3-maven-3-8-6-java-11`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.11.mandrel-22-3-maven-3-8-6-java-11/blob/main/Dockerfile), [`22-3-maven-3-8-6-java-11`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.11.mandrel-22-3-maven-3-8-6-java-11/blob/main/Dockerfile), [`java-11`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.11.mandrel-22-3-maven-3-8-6-java-11/blob/main/Dockerfile), [`java11`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.11.mandrel-22-3-maven-3-8-6-java-11/blob/main/Dockerfile), [`jdk-11`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.11.mandrel-22-3-maven-3-8-6-java-11/blob/main/Dockerfile), [`jdk11`](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.11.mandrel-22-3-maven-3-8-6-java-11/blob/main/Dockerfile)                                                                                                                                                       |
   
 Table 1.1. Supported tags and respective Dockerfile links
   
@@ -61,15 +61,15 @@ Table 1.1. Supported tags and respective Dockerfile links
 ### 1.2. Docker Repository naming conventions
 | REPOSITORY                                                                                                                                                                                                                      | TAG                              | IMAGE ID     | SIZE     |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------|:-------------|:---------|
-| ochmanskide/graalvm-maven                                                                                                                                                                                                       | mandrel-22-2-maven-3-8-6-java-17 | 899856155ff9 | 933.52MB |
-| ochmanskide/graalvm-maven                                                                                                                                                                                                       | 22-2-maven-3-8-6-java-17         | 899856155ff9 | 933.52MB |
+| ochmanskide/graalvm-maven                                                                                                                                                                                                       | mandrel-22-3-maven-3-8-6-java-17 | 899856155ff9 | 933.52MB |
+| ochmanskide/graalvm-maven                                                                                                                                                                                                       | 22-3-maven-3-8-6-java-17         | 899856155ff9 | 933.52MB |
 | ochmanskide/graalvm-maven                                                                                                                                                                                                       | java-17                          | 899856155ff9 | 933.52MB |
 | ochmanskide/graalvm-maven                                                                                                                                                                                                       | java17                           | 899856155ff9 | 933.52MB |
 | ochmanskide/graalvm-maven                                                                                                                                                                                                       | jdk-17                           | 899856155ff9 | 933.52MB |
 | ochmanskide/graalvm-maven                                                                                                                                                                                                       | jdk17                            | 899856155ff9 | 933.52MB |
 | ochmanskide/graalvm-maven                                                                                                                                                                                                       | latest                           | 899856155ff9 | 933.52MB |
-| [`ochmanskide/...11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17`](https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17) | 1.0.0                            | 899856155ff9 | 933.52MB |
-| [`ochmanskide/...11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17`](https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17) | latest                           | 899856155ff9 | 933.52MB |
+| [`ochmanskide/...11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17`](https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17) | 1.0.0                            | 899856155ff9 | 933.52MB |
+| [`ochmanskide/...11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17`](https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17) | latest                           | 899856155ff9 | 933.52MB |
   
 Table 1.2. Docker Repository naming conventions
   
@@ -79,11 +79,11 @@ as you can see from the table 2.2., the highest semantic versioning number corre
 In order to determine the highest semantic version for older java, for example 11 search in the docker hub registry for this specific version.  
   
 Here is an example URL:  
-https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.11.mandrel-22-2-maven-3-8-6-java-11  
+https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.11.mandrel-22-3-maven-3-8-6-java-11  
   
 repository names are created according to the convention, so that you are able to find the right one:  
-https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.11.mandrel-22-2-maven-3-8-6-java-11  
-https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17  
+https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.11.mandrel-22-3-maven-3-8-6-java-11  
+https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17  
 etc.  
   
 ## 2. What's in this image?
@@ -91,22 +91,22 @@ etc.
 ### Mandrel Image
 ### Debian Slim
 ### Debian based Mandrel Official Image
-### base/images/debian/debian-11-bullseye/mandrel/22-2/java-17/mandrel-22-2-maven-3-8-6-java-17
-### base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
-### ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
+### base/images/debian/debian-11-bullseye/mandrel/22-3/java-17/mandrel-22-3-maven-3-8-6-java-17
+### base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17
+### ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17
 
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   00-slim            80MB   (80MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   01-clean           80MB   (0MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   02-graalvm         465MB  (385MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   03-maven           594MB  (129MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   04-aws-cli         753MB  (159MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   05-docker-cli      805MB  (52MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   06-dockerd         870MB  (65MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   07-containerd      904MB  (34MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   08-build-essential
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   09-libz-dev
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   10-zlib1g-dev      1.17GB (196MB)
-debian-11-bullseye/mandrel-22-2-maven-3-8-6-java-17   17-git             1.18GB (70MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   00-slim            80MB   (80MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   01-clean           80MB   (0MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   02-graalvm         465MB  (385MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   03-maven           594MB  (129MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   04-aws-cli         753MB  (159MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   05-docker-cli      805MB  (52MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   06-dockerd         870MB  (65MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   07-containerd      904MB  (34MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   08-build-essential
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   09-libz-dev
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   10-zlib1g-dev      1.17GB (196MB)
+debian-11-bullseye/mandrel-22-3-maven-3-8-6-java-17   17-git             1.18GB (70MB)
 ```
 
 ## 3. Why Debian?
@@ -150,31 +150,31 @@ FROM debian:stable-20220717-slim
 &nbsp;
 ## 6. How to clone source code?
 ```bash
-git clone https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17.git ~/Workspace/ochmanskide/base/images/debian/11-bullseye/mandrel/22-2/java/17/mandrel-22-2-maven-3-8-6-java-17
+git clone https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17.git ~/Workspace/ochmanskide/base/images/debian/11-bullseye/mandrel/22-3/java/17/mandrel-22-3-maven-3-8-6-java-17
 ```
 
 &nbsp;
 ## 7. Source code pages
-* https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.11.mandrel-22-2-maven-3-8-6-java-11
-* https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
+* https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.11.mandrel-22-3-maven-3-8-6-java-11
+* https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17
 &nbsp;
 
 &nbsp;
 
 ## 8. How to build image from source?
-More details available directly in the [Section 3. How to build locally](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17#3-how-to-build-locally) of [README.md](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17) file.  
+More details available directly in the [Section 3. How to build locally](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17#3-how-to-build-locally) of [README.md](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17) file.  
   
 Excerpt:  
 ```bash
 export DOCKER_HUB_HOST=$USER
-cd ~/Workspace/ochmanskide/base/images/debian/11-bullseye/mandrel/22-2/java/17/mandrel-22-2-maven-3-8-6-java-17
+cd ~/Workspace/ochmanskide/base/images/debian/11-bullseye/mandrel/22-3/java/17/mandrel-22-3-maven-3-8-6-java-17
 gradle docker
 ```
 
 &nbsp;
 ## 9. Docker Hub pages:
-* https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17  
-* https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.11.mandrel-22-2-maven-3-8-6-java-11  
+* https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17  
+* https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.11.mandrel-22-3-maven-3-8-6-java-11  
 * https://hub.docker.com/repository/docker/ochmanskide/mandrel-maven  
 * https://hub.docker.com/repository/docker/ochmanskide/graalvm-maven  
 &nbsp;
@@ -183,7 +183,7 @@ gradle docker
 
 ## 10. Excerpt from official Mandrel documentation
 
-**Mandrel 22.2.0.0-Final** is a downstream distribution of the **GraalVM** community edition 22.2.0.  
+**Mandrel 22.3.2.1-Final** is a downstream distribution of the **GraalVM** community edition 22.3.0.  
 Mandrel's main goal is to provide a native-image release specifically to support Quarkus.  
 The aim is to align the native-image capabilities from GraalVM with OpenJDK and Red Hat Enterprise Linux libraries to improve maintainability for native Quarkus applications.  
 
@@ -251,7 +251,7 @@ GRAALVM_HOME=/opt/graalvm
 HOSTNAME=b1b4ae122f74
 JAVA_HOME=/opt/graalvm
 PWD=/home/maven
-IMAGE_SOURCE=https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
+IMAGE_SOURCE=https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17
 MAVEN_VERSION=3.8.6
 HOME=/root
 M2_HOME=/opt/maven
@@ -317,7 +317,7 @@ docker images && echo
 
 ### 12.1. Run Quarkus with Maven
 ```bash
-docker run -it --entrypoint /bin/bash ochmanskide/base.images.debian.11-bullseye.mandrel.22-2.java.17.mandrel-22-2-maven-3-8-6-java-17
+docker run -it --entrypoint /bin/bash ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17
 git clone https://github.com/ochmanskide/quarkus.code-with-quarkus.git /home/quarkus/code-with-quarkus
 cd /home/quarkus/code-with-quarkus/
 mvn package -Pnative
@@ -357,7 +357,7 @@ https://hub.docker.com/r/vegardit/graalvm-maven
 
 https://hub.docker.com/r/vegardit/graalvm-maven/tags  
 
-https://github.com/graalvm/mandrel/releases/tag/mandrel-22.2.0.0-Final  
+https://github.com/graalvm/mandrel/releases/tag/mandrel-22.3.2.1-Final  
 
 
 ## 15. Frequently Asked Questions (FAQ)

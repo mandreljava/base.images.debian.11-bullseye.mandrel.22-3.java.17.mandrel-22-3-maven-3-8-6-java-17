@@ -10,8 +10,8 @@ author: Lukasz Ochmanski (github@ochmanski.de)
 ![GitHub](https://img.shields.io/github/license/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17)
 ![java17](https://img.shields.io/badge/Java-17-brightgreen) 
 ![Maven](https://img.shields.io/badge/Maven-3.8.6-brightgreen) 
-![graalvm](https://img.shields.io/badge/GraalVM-22.2.0-brightgreen) 
-![mandrel](https://img.shields.io/badge/Mandrel-22.2.0-brightgreen) 
+![graalvm](https://img.shields.io/badge/GraalVM-22.3.0-brightgreen)
+![mandrel](https://img.shields.io/badge/Mandrel-22.3.0-brightgreen)
 ![distribution](https://img.shields.io/badge/Distribution-Debian-brightgreen) 
 ![arch](https://img.shields.io/badge/Arch-amd64-brightgreen)  
 &nbsp;  
@@ -150,7 +150,7 @@ https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bulls
 
 ## 10. Excerpt from official Mandrel documentation
 
-**Mandrel 22.2.0.0-Final** is a downstream distribution of the **GraalVM** community edition 22.2.0.  
+**Mandrel 22.3.2.1-Final** is a downstream distribution of the **GraalVM** community edition 22.3.0.
 Mandrel's main goal is to provide a native-image release specifically to support Quarkus.  
 The aim is to align the native-image capabilities from GraalVM with OpenJDK and Red Hat Enterprise Linux libraries to improve maintainability for native Quarkus applications.  
 
@@ -324,7 +324,7 @@ https://hub.docker.com/r/vegardit/graalvm-maven
 
 https://hub.docker.com/r/vegardit/graalvm-maven/tags  
 
-https://github.com/graalvm/mandrel/releases/tag/mandrel-22.2.0.0-Final  
+https://github.com/graalvm/mandrel/releases/tag/mandrel-22.3.2.1-Final
 
 
 ## 15. Frequently Asked Questions (FAQ)
