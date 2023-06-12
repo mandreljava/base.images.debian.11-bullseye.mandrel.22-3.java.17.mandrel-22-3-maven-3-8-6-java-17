@@ -1,17 +1,17 @@
 # Debian-based Mandrel image optimized for building Quarkus projects
 
-last updated: Mon, Jun 12, 2023  9:25:03 AM
+last updated: Mon, Jun 12, 2023  9:54:59 AM
 author: Lukasz Ochmanski (github@ochmanski.de)  
   
-[![Github tag](https://badgen.net/github/tag/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17?icon=github&kill_cache=1)](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17/tags/0.0.4)  
+[![Github tag](https://badgen.net/github/tag/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17?icon=github&kill_cache=1)](https://github.com/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17/tags/0.0.5)  
 &nbsp;
   
 **Project details:**  
 ![GitHub](https://img.shields.io/github/license/ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17)
 ![java17](https://img.shields.io/badge/Java-17-brightgreen) 
 ![Maven](https://img.shields.io/badge/Maven-3.8.6-brightgreen) 
-![graalvm](https://img.shields.io/badge/GraalVM-22.3.0-brightgreen) 
-![mandrel](https://img.shields.io/badge/Mandrel-22.3.0-brightgreen) 
+![graalvm](https://img.shields.io/badge/GraalVM-22.3.0-brightgreen)
+![mandrel](https://img.shields.io/badge/Mandrel-22.3.0-brightgreen)
 ![distribution](https://img.shields.io/badge/Distribution-Debian-brightgreen) 
 ![arch](https://img.shields.io/badge/Arch-amd64-brightgreen)  
 &nbsp;  
@@ -101,13 +101,13 @@ https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bulls
 
 ## 5. Image coordinates:
 ```  
-docker pull ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17:0.0.4
+docker pull ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17:0.0.5
 ```
 
 ## 6. Available Docker images and tags:
 ```
 REPOSITORY                                                                                        TAG                    SIZE
-ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17  0.0.4                  933.52MB
+ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17  0.0.5                  933.52MB
 ochmanskide/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17  latest                 933.52MB
 debian                                                                                            stable-20220711-slim   80.4MB
 ```
@@ -150,7 +150,7 @@ https://hub.docker.com/repository/docker/ochmanskide/base.images.debian.11-bulls
 
 ## 10. Excerpt from official Mandrel documentation
 
-**Mandrel 22.3.2.1-Final** is a downstream distribution of the **GraalVM** community edition 22.3.0.  
+**Mandrel 22.3.2.1-Final** is a downstream distribution of the **GraalVM** community edition 22.3.0.
 Mandrel's main goal is to provide a native-image release specifically to support Quarkus.  
 The aim is to align the native-image capabilities from GraalVM with OpenJDK and Red Hat Enterprise Linux libraries to improve maintainability for native Quarkus applications.  
 
@@ -324,7 +324,7 @@ https://hub.docker.com/r/vegardit/graalvm-maven
 
 https://hub.docker.com/r/vegardit/graalvm-maven/tags  
 
-https://github.com/graalvm/mandrel/releases/tag/mandrel-22.3.2.1-Final  
+https://github.com/graalvm/mandrel/releases/tag/mandrel-22.3.2.1-Final
 
 
 ## 15. Frequently Asked Questions (FAQ)
