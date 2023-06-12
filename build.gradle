@@ -3,7 +3,7 @@ plugins {
     id "com.palantir.docker-run" version "0.22.1"
 }
 
-group 'base.images.debian.11-bullseye.mandrel.22-2.java.17'
+group 'base.images.debian.11-bullseye.mandrel.22-3.java.17'
 
 docker {
     def host = System.getenv('DOCKER_HUB_HOST')
