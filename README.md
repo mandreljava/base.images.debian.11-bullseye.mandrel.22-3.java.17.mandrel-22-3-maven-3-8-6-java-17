@@ -1,9 +1,9 @@
 # Debian-based Mandrel image optimized for building Quarkus projects
 
-last updated: Mon, Jun 12, 2023  1:02:51 PM
+last updated: Mon, Jun 12, 2023  1:04:24 PM
 author: Lukasz Ochmanski (github@ochmanski.de)  
   
-[![Github tag](https://badgen.net/github/tag/mandreljava/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17?icon=github&kill_cache=1)](https://github.com/mandreljava/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17/tags/1.0.0)
+[![Github tag](https://badgen.net/github/tag/mandreljava/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17?icon=github&kill_cache=1)](https://github.com/mandreljava/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17/tags/1.0.1)
 &nbsp;
   
 **Project details:**  
@@ -101,13 +101,13 @@ https://hub.docker.com/repository/docker/mandreljava/base.images.debian.11-bulls
 
 ## 5. Image coordinates:
 ```  
-docker pull mandreljava/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17:1.0.0
+docker pull mandreljava/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17:1.0.1
 ```
 
 ## 6. Available Docker images and tags:
 ```
 REPOSITORY                                                                                        TAG                    SIZE
-mandreljava/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17  1.0.0                  933.52MB
+mandreljava/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17  1.0.1                  933.52MB
 mandreljava/base.images.debian.11-bullseye.mandrel.22-3.java.17.mandrel-22-3-maven-3-8-6-java-17  latest                 933.52MB
 debian                                                                                            stable-20220711-slim   80.4MB
 ```
